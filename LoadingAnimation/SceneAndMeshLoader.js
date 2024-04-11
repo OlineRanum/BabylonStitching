@@ -6,7 +6,7 @@ var createScene = async function (canvas) {
     var scene = new BABYLON.Scene(engine);
 
     // This creates and positions a free camera (non-mesh)
-    var camera = new BABYLON.FreeCamera("camera1", new BABYLON.Vector3(0, 2, 2), scene);
+    var camera = new BABYLON.FreeCamera("camera1", new BABYLON.Vector3(0, 1.5, 2.5), scene);
 
     // This targets the camera to scene origin
     camera.setTarget(BABYLON.Vector3.Zero().add(new BABYLON.Vector3(0, 1, 0)));
